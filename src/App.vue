@@ -1,5 +1,7 @@
 <template>
 	<div id="app">
+
+		<Header/>
 		<h1>My Todo App!</h1>
 		<TodoList/>
 	</div>
@@ -7,15 +9,16 @@
 
 
 <script>
-
+	import Header from './components/Header.vue'
 	import TodoList from './components/TodoList.vue'
 
 	export default {
 		components: {
-			TodoList
+			TodoList,
+			Header
 		}
 	}
-	
+
 </script>
 
 <style>
