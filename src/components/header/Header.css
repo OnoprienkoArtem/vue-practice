@@ -1,0 +1,9 @@
+.hello {
+    display: flex;
+    height: 100px;
+}
+
+img {
+    margin: auto;
+    height: 100%;
+}
