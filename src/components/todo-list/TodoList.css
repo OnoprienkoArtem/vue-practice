@@ -1,0 +1,19 @@
+.input-wrapper {
+    display: flex;
+}
+
+.add {
+    height: 100%;
+    display: block;
+    padding: 10px;
+    width: 50px;
+    margin-left: 20px;
+    border: none;
+    background: skyblue;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+}
