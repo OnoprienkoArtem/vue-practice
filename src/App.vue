@@ -1,8 +1,6 @@
 <template>
 	<div id="app">
-
-		<Header/>
-		<h1>My Todo App!</h1>
+		<Header msg='TODO app'/>		
 		<TodoList/>
 	</div>
 </template>
@@ -17,6 +15,7 @@
 			TodoList,
 			Header
 		}
+	
 	}
 
 </script>
@@ -35,7 +34,5 @@
 		-moz-osx-font-smoothing: grayscale;	
 	}
 
-	h1 {
-		text-align: center;
-	}
+
 </style>

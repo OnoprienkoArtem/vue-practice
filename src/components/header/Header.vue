@@ -1,6 +1,8 @@
 <template>
   	<div class="hello">
-    	<img src="../../assets/logo.png" alt>
+		<div class="img-wrapp">
+			<img src="../../assets/logo.png" alt>
+		</div>    	
     	<h1>{{ msg }}</h1>
   	</div>
 </template>

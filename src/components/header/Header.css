@@ -1,9 +1,21 @@
 .hello {
+    
+}
+
+.img-wrapp {
     display: flex;
-    height: 100px;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
 }
 
 img {
     margin: auto;
     height: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
