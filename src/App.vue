@@ -8,7 +8,7 @@
 
 <script>
 	import Header from './components/header/Header.vue'
-	import TodoList from './components/TodoList.vue'
+	import TodoList from './components/todo-list/TodoList.vue'
 
 	export default {
 		components: {
